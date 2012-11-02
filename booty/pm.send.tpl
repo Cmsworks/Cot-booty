@@ -1,16 +1,16 @@
 <!-- BEGIN: MAIN -->
 
+	<div class="breadcrumb">{PMSEND_TITLE}</div>
 <!-- BEGIN: BEFORE_AJAX -->
 		<div id="ajaxBlock">
 <!-- END: BEFORE_AJAX -->
 
 			<div class="block">
-				<div class="mboxHD comments">{PMSEND_TITLE}</div>
 				<p class="small">{PHP.L.pmsend_subtitle}</p>
 				<p class="paging">{PMSEND_INBOX}<span class="spaced">{PHP.cfg.separator}</span>{PMSEND_SENTBOX}<span class="spaced">{PHP.cfg.separator}</span>{PMSEND_SENDNEWPM}
 				{FILE "{PHP.cfg.themes_dir}/{PHP.cfg.defaulttheme}/warnings.tpl"}
 				<form action="{PMSEND_FORM_SEND}" method="post" name="newmessage" id="mewmessage">
-					<table class="cells">
+					<table class="table">
 <!-- BEGIN: PMSEND_USERLIST -->
 						<tr>
 							<td class="width20">{PHP.L.Recipients}:</td>
@@ -33,7 +33,7 @@
 							<td><input type="checkbox" class="checkbox"  name="fromstate" value="3" /> {PHP.L.pm_notmovetosentbox}</td>
 						</tr>
 						<tr>
-							<td colspan="2" class="valid"><button type="submit">{PHP.L.Submit}</button></td>
+							<td colspan="2" class="valid"><button class="btn btn-primary btn-small" type="submit">{PHP.L.Submit}</button></td>
 						</tr>
 					</table>
 				</form>
