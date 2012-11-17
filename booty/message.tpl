@@ -1,7 +1,7 @@
 <!-- BEGIN: MAIN -->
 
 	<div class="block">
-		<h2 class="warning">{MESSAGE_TITLE}</h2>
+		<h2>{MESSAGE_TITLE}</h2>
 		<div class="alert alert-error">
 			{MESSAGE_BODY}
 			<!-- BEGIN: MESSAGE_CONFIRM -->

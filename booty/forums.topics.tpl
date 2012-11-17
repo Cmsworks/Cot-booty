@@ -71,11 +71,11 @@
 <!-- END: FORUMS_TOPICS_ROW -->
 			</table>
 
-			<p class="paging">
+			<p class="pagination">
 <!-- BEGIN: FORUMS_SECTIONS_VIEWERS -->
 				<span>{PHP.L.forums_viewers}: {FORUMS_TOPICS_VIEWERS} {FORUMS_TOPICS_VIEWER_NAMES}</span>
 <!-- END: FORUMS_SECTIONS_VIEWERS -->
-				{FORUMS_TOPICS_PAGEPREV}{FORUMS_TOPICS_PAGES}{FORUMS_TOPICS_PAGENEXT}
+				<ul>{FORUMS_TOPICS_PAGEPREV}{FORUMS_TOPICS_PAGES}{FORUMS_TOPICS_PAGENEXT}</ul>
 			</p>
 
 		</div>

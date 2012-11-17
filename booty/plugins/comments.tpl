@@ -28,7 +28,7 @@
 					</tr>
 					<tr>
 						<td colspan="2" class="valid">
-							<input type="submit" class="submit" value="{COMMENTS_FORM_UPDATE_BUTTON}">
+							<input type="submit" class="btn" value="{COMMENTS_FORM_UPDATE_BUTTON}">
 						</td>
 					</tr>
 				</table>
@@ -61,8 +61,8 @@
 
 <!-- BEGIN: PAGNAVIGATOR -->
 		<!-- IF {COMMENTS_PAGES_PAGNAV} -->
-		<p class="paging">{COMMENTS_PAGES_PAGESPREV}{COMMENTS_PAGES_PAGNAV}{COMMENTS_PAGES_PAGESNEXT}</p>
-		<p class="paging"><span>{COMMENTS_PAGES_INFO}</span></p>
+		<p class="pagination"><ul>{COMMENTS_PAGES_PAGESPREV}{COMMENTS_PAGES_PAGNAV}{COMMENTS_PAGES_PAGESNEXT}</ul></p>
+		<p class="pagin"><span>{COMMENTS_PAGES_INFO}</span></p>
 		<!-- ENDIF -->
 <!-- END: PAGNAVIGATOR -->
 
@@ -83,7 +83,7 @@
 			<div>{COMMENTS_FORM_VERIFYIMG}: {COMMENTS_FORM_VERIFY}</div>
 			<!-- ENDIF -->
 			<div class="margin10 textcenter">
-				<button type="submit">{PHP.L.Submit}</button>
+				<button type="submit" class="btn">{PHP.L.Submit}</button>
 			</div>
 		</form>
 		<div class="help">{COMMENTS_FORM_HINT}</div>

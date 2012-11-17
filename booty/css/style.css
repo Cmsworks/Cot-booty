@@ -16,6 +16,9 @@ sub, sup	{ font-size:.8em; position:relative; }
 sub			{ top:.5em; }
 sup			{ top:-.5em; }
 
+.customform input, .customform select	{ width: inherit!important; }
+.customform textarea	{ width: 99%; min-height: 100px; }
+
 /* 1. Main Navigation
 -------------------------------------------------- */
 
